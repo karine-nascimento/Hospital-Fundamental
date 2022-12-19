@@ -32,4 +32,4 @@ Também é necessário controlar quais profissionais de enfermaria estarão resp
 A internação, obviamente, é vinculada a um paciente – que pode se internar mais de uma vez no hospital – e a um único médico responsável.
 </p>
 <br> 
-<img src='DiagramaER-1.png' align="center"/>
+<img src='DiagramaER-2.png' align="center"/>
