@@ -56,35 +56,34 @@ A internação, obviamente, é vinculada a um paciente – que pode se internar 
 
 # Hospital
 
-![image](https://user-images.githubusercontent.com/110436354/hospital.png)
-
+<img src='hospital.png'/>
 # Médico
 
-![image](https://user-images.githubusercontent.com/110436354/medico.png)
+<img src='medico.png'/>
 
 # Consulta
 
-![image](https://user-images.githubusercontent.com/110436354/consulta.png)
+<img src='consulta.png'/>
 
 # Cargo
-![image](https://user-images.githubusercontent.com/110436354/cargo.png)
+<img src='cargo.png'/>
 
 # Paciente
-![image](https://user-images.githubusercontent.com/110436354/paciente.png)
+<img src='paciente.png'/>
 
 # Especialidades
-![image](https://user-images.githubusercontent.com/110436354/especialidades.png)
+<img src='especialidades.png'/>
 
 # Internação
-![image](https://user-images.githubusercontent.com/110436354/internacao.png)
+<img src='internacao.png'/>
 
 # Enfermeiro
-![image](https://user-images.githubusercontent.com/110436354/enfermeiro.png)
+<img src='enfermeiro.png'/>
 
 # Convênio
-![image](https://user-images.githubusercontent.com/110436354/convenio.png)
+<img src='convenio.png'/>
 
 # Receita
-![image](https://user-images.githubusercontent.com/110436354/receita.png)
+<img src='receita.png'/>
 
 
