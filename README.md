@@ -53,3 +53,38 @@ A internação, obviamente, é vinculada a um paciente – que pode se internar 
 <li>Os dados de tipo de quarto, convênio e especialidade são essenciais para a operação do sistema e, portanto, devem ser povoados assim que o sistema for instalado. </li>
 </ul>
 <br>
+
+# Hospital
+
+![image](https://user-images.githubusercontent.com/110436354/hospital.png)
+
+# Médico
+
+![image](https://user-images.githubusercontent.com/110436354/medico.png)
+
+# Consulta
+
+![image](https://user-images.githubusercontent.com/110436354/consulta.png)
+
+# Cargo
+![image](https://user-images.githubusercontent.com/110436354/cargo.png)
+
+# Paciente
+![image](https://user-images.githubusercontent.com/110436354/paciente.png)
+
+# Especialidades
+![image](https://user-images.githubusercontent.com/110436354/especialidades.png)
+
+# Internação
+![image](https://user-images.githubusercontent.com/110436354/internacao.png)
+
+# Enfermeiro
+![image](https://user-images.githubusercontent.com/110436354/enfermeiro.png)
+
+# Convênio
+![image](https://user-images.githubusercontent.com/110436354/convenio.png)
+
+# Receita
+![image](https://user-images.githubusercontent.com/110436354/receita.png)
+
+
