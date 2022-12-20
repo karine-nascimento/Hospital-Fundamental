@@ -57,6 +57,7 @@ A internação, obviamente, é vinculada a um paciente – que pode se internar 
 # Hospital
 
 <img src='hospital.png'/>
+
 # Médico
 
 <img src='medico.png'/>
