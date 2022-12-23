@@ -64,7 +64,7 @@ A internação, obviamente, é vinculada a um paciente – que pode se internar 
 
 # Consulta
 
-<img src='consulta.png'/>
+<img src='consulta1.png'/>
 
 # Cargo
 <img src='cargo.png'/>
