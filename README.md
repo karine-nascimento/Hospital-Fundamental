@@ -89,3 +89,5 @@ A internação, obviamente, é vinculada a um paciente – que pode se internar 
 
 
 <h3>Parte 4 - Realizando alterações no banco de dados</h3>
+
+<img src='update.png'/>
