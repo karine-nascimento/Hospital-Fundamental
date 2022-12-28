@@ -98,3 +98,10 @@ Crie um script para atualizar ao menos dois médicos como inativos e os demais e
 
 <img src='update.png'/>
 <br>
+
+# Parte 4 - Realizando alterações no banco de dados
+
+
+1- select avg(valor_consulta) from consulta WHERE YEAR(data_consulta)=2020;
+2- select * from internacao where data_alta>data_prev_alta; 
+3- 
