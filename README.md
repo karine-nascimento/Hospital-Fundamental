@@ -112,5 +112,7 @@ Crie um script para atualizar ao menos dois médicos como inativos e os demais e
 union all
 select *, MAX(valor) from consulta; <br>
 <img src='Parte5-4.png' align="center"/>
+6- select * from internacao INNER JOIN quarto on internacao.quarto where quarto.id_quarto = 1;
+7- 
 
 
