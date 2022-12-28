@@ -104,4 +104,4 @@ Crie um script para atualizar ao menos dois médicos como inativos e os demais e
 
 1- select avg(valor_consulta) from consulta WHERE YEAR(data_consulta)=2020;
 2- select * from internacao where data_alta>data_prev_alta; 
-3- 
+3- Select * from consulta inner join receita on consulta.receitado = receita.id_receita order by data_consulta limit 1;
