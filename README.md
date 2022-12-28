@@ -111,9 +111,10 @@ Crie um script para atualizar ao menos dois médicos como inativos e os demais e
 4- Select *, MIN(valor) from consulta
 union all
 select *, MAX(valor) from consulta; <br>
-<img src='Parte5-4.png' align="center"/>
-6- select * from internacao INNER JOIN quarto on internacao.quarto where quarto.id_quarto = 1;
-7- Select paciente.nome, paciente.ano_nascimento, consulta.data_consulta from paciente JOIN consulta on paciente.cpf = consulta.cpf_paciente inner join especialidade on especialidade.id = consulta.e_buscada where consulta.e_buscada <> 1 and year(consulta.data_consulta) - year(paciente.ano_nascimento) < 19 or year(consulta.data_consulta) - year(paciente.ano_nascimento) > 0 order by consulta.data_consulta;
+<img src='Parte5-4.png' align="center"/> <br>
+5- select * from internacao INNER JOIN quarto on internacao.quarto where quarto.id_quarto = 1; <br>
+7- Select paciente.nome, paciente.ano_nascimento, consulta.data_consulta from paciente JOIN consulta on paciente.cpf = consulta.cpf_paciente inner join especialidade on especialidade.id = consulta.e_buscada where consulta.e_buscada <> 1 and year(consulta.data_consulta) - year(paciente.ano_nascimento) < 19 or year(consulta.data_consulta) - year(paciente.ano_nascimento) > 0 order by consulta.data_consulta; <br> 
+<img src='Parte5-6.png' align="center"/>
 8-
 
 
