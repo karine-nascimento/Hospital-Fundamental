@@ -108,7 +108,7 @@ Crie um script para atualizar ao menos dois médicos como inativos e os demais e
 <img src='Parte5-2.png' align="center"/> <br>
 3- Select * from consulta inner join receita on consulta.receitado = receita.id_receita order by data_consulta limit 1; <br>
 <img src='Parte5-3.png' align="center"/> <br>
-Select *, MIN(valor) from consulta
+4- Select *, MIN(valor) from consulta
 union all
 select *, MAX(valor) from consulta; <br>
 <img src='Parte5-4.png' align="center"/>
