@@ -101,19 +101,24 @@ Crie um script para atualizar ao menos dois médicos como inativos e os demais e
 
 # Parte 5 - Consultas no banco de dados
 
+### Todos os dados e o valor médio das consultas do ano de 2020
+select avg(valor_consulta) from consulta WHERE YEAR(data_consulta)=2020;
+<img src='Parte5-1.png' align="center"/> <br><br>
+### Todos os dados das internações que tiveram data de alta maior que a data prevista para a alta.
+select * from internacao where data_alta>data_prev_alta; <br>
+<img src='Parte5-2.png' align="center"/> <br><br>
+### Receituário completo da primeira consulta registrada com receituário associado.
+Select * from consulta inner join receita on consulta.receitado = receita.id_receita order by data_consulta limit 1; <br>
+<img src='Parte5-3.png' align="center"/> <br><br>
+### Todos os dados da consulta de maior valor e também da de menor valor.
+Select *, MIN(valor) from consulta union all select *, MAX(valor) from consulta; <br>
+<img src='Parte5-4.png' align="center"/> <br><br>
+### Data, procedimento e número de quarto de internações em quartos do tipo “apartamento”.
+select * from internacao INNER JOIN quarto on internacao.quarto where quarto.id_quarto = 1; <br>
 
-1- select avg(valor_consulta) from consulta WHERE YEAR(data_consulta)=2020;
-<img src='Parte5-1.png' align="center"/> <br>
-2- select * from internacao where data_alta>data_prev_alta; <br>
-<img src='Parte5-2.png' align="center"/> <br>
-3- Select * from consulta inner join receita on consulta.receitado = receita.id_receita order by data_consulta limit 1; <br>
-<img src='Parte5-3.png' align="center"/> <br>
-4- Select *, MIN(valor) from consulta
-union all
-select *, MAX(valor) from consulta; <br>
-<img src='Parte5-4.png' align="center"/> <br>
-5- select * from internacao INNER JOIN quarto on internacao.quarto where quarto.id_quarto = 1; <br>
-7- Select paciente.nome, paciente.ano_nascimento, consulta.data_consulta from paciente JOIN consulta on paciente.cpf = consulta.cpf_paciente inner join especialidade on especialidade.id = consulta.e_buscada where consulta.e_buscada <> 1 and year(consulta.data_consulta) - year(paciente.ano_nascimento) < 19 or year(consulta.data_consulta) - year(paciente.ano_nascimento) > 0 order by consulta.data_consulta; <br> 
+
+### Nome do paciente, data da consulta e especialidade de todas as consultas em que os pacientes eram menores de 18 anos na data da consulta e cuja especialidade não seja “pediatria”, ordenando por data de realização da consulta.
+Select paciente.nome, paciente.ano_nascimento, consulta.data_consulta from paciente JOIN consulta on paciente.cpf = consulta.cpf_paciente inner join especialidade on especialidade.id = consulta.e_buscada where consulta.e_buscada <> 1 and year(consulta.data_consulta) - year(paciente.ano_nascimento) < 19 or year(consulta.data_consulta) - year(paciente.ano_nascimento) > 0 order by consulta.data_consulta; <br> 
 <img src='Parte5-6.png' align="center"/> <br>
 8-
 
